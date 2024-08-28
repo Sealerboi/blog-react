@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+@media (prefers-reduced-motion: no-preference)
+{
+  .App-logo {
+    animation: none;
+  }
+} 
+
+.App-intro {
+  font-size: large;
+}
+
+.App-posts {
+  margin-top: 20px;
+}
+
+.App-post-title {
+  margin-bottom: 5px;
+}
+
+.App-post-content {
+  margin-bottom: 20px;
+}
+
+.App-pagination {
+  display: flex;
+  justify-content: center;
+}
+
